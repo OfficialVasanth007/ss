@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SCORE BOARD</title>
+        <link href="index.css" rel="stylesheet">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="home">
+                <h2>HOME</h2>
+                <div class="screen "id="homeScore">0</div>
+                <div class="butts">
+                    <button onclick="hplus(1)">+1</button>
+                    <button onclick="hplus(2)">+2</button>
+                    <button onclick="hplus(3)">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h2>GUEST</h2> 
+                <div class="screen "id="guestScore">0</div>
+                <div class="butts">
+                    <button onclick="gplus(1)">+1</button>
+                    <button onclick="gplus(2)">+2</button>
+                    <button onclick="gplus(3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="reset"><button onclick="reset()">reset</button></div>
+    </body>
+</html>

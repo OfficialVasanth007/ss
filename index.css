@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bask1.jpg);
+  
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 30px;;
+}
+#reset{
+    font-size:3em;
+  
+    text-align: center;
+    
+}
+#reset button{
+   
+   color:red;
+
+ 
+   
+    
+
+}
+
+h2{
+    color:white;
+    text-align: center; /* Center the "HOME" and "GUEST" text */
+    margin-bottom: 10px;
+   
+}
+.butts{
+   display:flex;
+   margin-top:10px;
+   justify-content: space-around;
+}
+button{
+    font-size: 1.2em;
+    padding:10px;
+    font-family: timer;
+   color: rgba(154, 171, 216, 1);
+   border:1px solid rgba(154, 171, 216, 1);
+   background-color: rgba(27, 36, 74, 1);
+   border-radius: 5px;
+}
+.screen{
+    height:120px;
+    width:155px;
+    background-color: black;
+    color:red;
+    font-family: timer;
+    text-align: center;
+    font-size:5em;
+    border-radius:10px;
+    display: flex; /* Make .screen a flex container */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; 
+    
+}
+@font-face {
+    font-family: timer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
